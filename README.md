@@ -1,15 +1,22 @@
-Python Calculator
+**Python Calculator**
 
-A simple command-line calculator built with Python. This project allows users to perform basic arithmetic operations like addition, subtraction, multiplication, and division through a clean and interactive terminal interface.
+A simple command-line calculator written in Python that supports basic arithmetic operations, power, square root, and trigonometric functions (sin, cos, tan). The program provides an interactive menu and handles invalid input gracefully.
 
-Features
+## Features
 
-- Addition, Subtraction, Multiplication, Division
-- Handles invalid operations (like division by zero)
-- Simple and interactive command-line interface
-- Beginner-friendly Python code structure
+- Addition, subtraction, multiplication, and division  
+- Power (`x^y`) calculation  
+- Square root with error handling for negative numbers  
+- Trigonometric functions (sin, cos, tan) using degree input  
+- Input validation and error handling  
+- Simple text-based menu interface  
 
- Technologies Used
+## Requirements
 
-- Language: Python 3.x
-- Libraries: None (uses only built-in features)
+- Python 3.x
+- math module (part of the Python standard library)
+
+## Notes
+
+- Trigonometric functions expect degrees as input.
+- Division by zero and invalid inputs are handled with error messages.
