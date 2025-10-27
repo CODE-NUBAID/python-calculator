@@ -1,4 +1,4 @@
-**Python Calculator**
+## Python Calculator
 
 A simple command-line calculator written in Python that supports basic arithmetic operations, power, square root, and trigonometric functions (sin, cos, tan). The program provides an interactive menu and handles invalid input gracefully.
 
